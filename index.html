@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Serhan</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+        <form>
+			<input id="filter-for-listview" data-type="search" placeholder="Arama...">
+		</form>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+			<li><a href="http.html" data-rel="dialog" data-transition="pop">HTTP</a></li>
+			<li><a href="and.html" data-rel="dialog" data-transition="pop">ANDROID</a></li>
+			<li><a href="ios.html" data-rel="dialog" data-transition="pop">IOS</a></li>
+			
+		</ul>
+        
+        
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>Özyiğit</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
